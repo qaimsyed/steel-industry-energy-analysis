@@ -19,6 +19,7 @@ detection, correlation analysis, and baseline regression modeling to predict ene
 ├── steel_industry_modeling.ipynb                 # Part 2: Baseline Regression Modeling
 ├── Steel_industry_data.csv                       # Raw dataset
 ├── Steel_industry_data_cleaned.csv                # Cleaned dataset with engineered features (output of Part 1, input to Part 2)
+├── requirements.txt                               # Python dependencies
 └── README.md
 ```
 
@@ -109,3 +110,5 @@ regime-based usage patterns (Light/Medium/Maximum load) found in the EDA.
 ## Tools used
 
 Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn (Jupyter Notebook)
+
+Install dependencies: `pip install -r requirements.txt`
