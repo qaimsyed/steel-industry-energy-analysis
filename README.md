@@ -7,7 +7,7 @@ detection, correlation analysis, and baseline regression modeling to predict ene
 ## Dataset
 
 - **Source:** [UCI Machine Learning Repository — Steel Industry Energy Consumption Dataset](https://archive.ics.uci.edu/dataset/851/steel+industry+energy+consumption)
-- **File:** `Steel_industry_data.csv`
+- **File:** `data/Steel_industry_data.csv`
 - **Rows:** 35,040 (15-minute interval readings over one year)
 - **Columns:** 11, including energy usage, reactive power, CO2 output, power factor, load
   type, and timestamp
@@ -15,10 +15,11 @@ detection, correlation analysis, and baseline regression modeling to predict ene
 ## Project structure
 
 ```
+├── data/
+│   ├── Steel_industry_data.csv                    # Raw dataset
+│   └── Steel_industry_data_cleaned.csv            # Cleaned dataset with engineered features (output of Part 1, input to Part 2)
 ├── steel_industry_energy_consumption_eda.ipynb   # Part 1: EDA & Feature Engineering
 ├── steel_industry_modeling.ipynb                 # Part 2: Baseline Regression Modeling
-├── Steel_industry_data.csv                       # Raw dataset
-├── Steel_industry_data_cleaned.csv                # Cleaned dataset with engineered features (output of Part 1, input to Part 2)
 ├── requirements.txt                               # Python dependencies
 └── README.md
 ```
